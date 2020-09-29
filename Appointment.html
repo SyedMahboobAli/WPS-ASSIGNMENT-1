@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Doctor Appointment</title>
+<link rel="Stylesheet" href="Appointment.css">  
+</head>
+<body>
+  <nav>
+    <label class="logo">VCE HOSPITAL</label>
+    <ul>
+      <li><a href="home.html">HOME</a></li>
+      <li><a class="active" href="#">BOOK APPOINTMENT</a></li>
+      <li><a href="#">VIEW APPOINTMENTS</a></li>
+      <li><a href="aboutus.html">ABOUT US</a></li>
+      <li><a href="contactus.html">CONTACT US</a></li> 
+    </ul>
+  </nav>
+  <div class="layer1">
+    <div class="form-data">
+      <div class="form-head">
+        <h2>Book Appointment</h2>
+       </div>
+        <form>
+          <input type = "text" id = "name" placeholder="Enter Full name">
+          <input type = "text" id = "r_no" placeholder="Roll Number">
+          <input type = "text" id = "mob_no" placeholder="Enter Mobile Number">
+          <input type = "text" id = "email_add"placeholder="Enter Email Adreess">
+          <input type = "text" id = "app_dt"placeholder="Appointment Date">
+          <input type = "text" id = "time"placeholder="Time">
+        </form>
+        <button id = "submit" onclick="store_reset()">Confirm Appointment</button><br><br>
+        <button id = "view_btn" onclick="disp_data()">View Appointments</button>
+      </div>  
+   </div>
+    <script src ="app.js"></script>
+</body>
+</html>

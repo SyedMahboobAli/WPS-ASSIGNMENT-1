@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+nav{
+    background: #203241;
+    height: 80px;
+    width: 100%;
+
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17 px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+a.active, a:hover{
+    background: #6a737a;
+    transition: .5s;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(image.jpg);
+    background-size: 80pc;
+    background-position: top;
+}
+.layer1{
+    float: right;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding:0 100px;
+    overflow: auto;
+}
+.form-data{
+    margin-top: 5%;
+    margin-right: 40%;
+    margin-left: 30%;
+    background-color: #FFF; 
+}
+.form-body{
+    padding: 20px;
+}
+.form-head{
+    padding:10px;
+    border-bottom: 1px solid #CCC;
+}
+.form-head h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.form-row{
+    border-bottom: 15px;
+}
